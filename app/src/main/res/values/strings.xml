@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="action_reset">Reset</string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="fake_ingredients">1 cup all-purpose flour \n2 tablespoons white sugar \n2 teaspoons baking powder \n1 teaspoon salt \n1 egg, beaten \n1 cup milk \n2 tablespoons vegetable oil</string>
+    <string name="steps_label">Procedure</string>
+    <string name="fake_steps">Place beef roast in crock pot.\n
+    Mix the dried mixes together in a bowl and sprinkle over the roast.\n
+    Pour the water around the roast.\n
+    "Cook on low for 7-9 hours.</string>
+</resources>
