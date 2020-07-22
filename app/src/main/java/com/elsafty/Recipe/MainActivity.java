@@ -8,6 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LayoutAnimationController;
 
 import com.elsafty.Recipe.Utilities.DataUtils;
 
@@ -38,9 +41,12 @@ public class MainActivity extends AppCompatActivity implements RecipeListAdapter
         }
 
         mRecyclerView = findViewById(R.id.recyclerview);
+        //LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(this,R.anim.rv_anim);
         mAdapter = new RecipeListAdapter(this, mRecipes, this);
         mRecyclerView.setAdapter(mAdapter);
+       // mRecyclerView.setLayoutAnimation((animation));
         mRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
+
     }
 
     @Override

@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.elsafty.Recipe.RecipeActivity"
-            android:parentActivityName="com.elsafty.Recipe.MainActivity"></activity>
         <activity
-            android:name="com.elsafty.Recipe.MainActivity"
+            android:name=".RecipeActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENTACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
